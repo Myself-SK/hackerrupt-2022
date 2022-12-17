@@ -1,0 +1,90 @@
+{
+  "project_info": {
+    "project_number": "731466548662",
+    "project_id": "blood-boon",
+    "storage_bucket": "blood-boon.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:731466548662:android:1f6ea1d45b5c796c38ed17",
+        "android_client_info": {
+          "package_name": "com.example.blood_boon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "731466548662-uljiunnbm5nntmttdvnd031bsqpajucj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4r_hqlQA_lQ2Ikr7Ar8qPhU08aOx7vcI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "731466548662-uljiunnbm5nntmttdvnd031bsqpajucj.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "731466548662-2b076dmuq4v9nhilgopedkqelkbuan6b.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.bloodBoon"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:731466548662:android:6d7fa6f18a4ba3d538ed17",
+        "android_client_info": {
+          "package_name": "com.example.bloodboon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "731466548662-0rtr55feeb3gtdi9h253cmvp02tcmjok.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bloodboon",
+            "certificate_hash": "fa4efe744213b0ffbf6c60311c2ac0930c6ae64a"
+          }
+        },
+        {
+          "client_id": "731466548662-uljiunnbm5nntmttdvnd031bsqpajucj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4r_hqlQA_lQ2Ikr7Ar8qPhU08aOx7vcI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "731466548662-uljiunnbm5nntmttdvnd031bsqpajucj.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "731466548662-2b076dmuq4v9nhilgopedkqelkbuan6b.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.bloodBoon"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
