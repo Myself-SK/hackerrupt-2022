@@ -40,12 +40,6 @@ class _MainScreenState extends State<MainScreen> {
           onTap: (index) => setState(() {
             currentIndex = index;
           }),
-          // currentIndex: currentIndex,
-          // type: BottomNavigationBarType.fixed,
-          // selectedItemColor: Color(0xFFFF6633),
-          // unselectedItemColor: Color(0xFF495B63),
-          // showUnselectedLabels: true,
-          // backgroundColor: Color(0x00000000),
           style: TabStyle.reactCircle,
           activeColor: Colors.red,
           height: 55,

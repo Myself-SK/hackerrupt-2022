@@ -16,14 +16,14 @@ class _HomeScreenState extends State<HomeScreen> {
   Map<String, dynamic> data = <String, dynamic>{};
 
   Future<void> get getTodos async {
-    http.Response response;
-    try {
-      response = await http.get(Uri.parse('http://10.60.218.111:5000/'));
-      setState(() {
-        data = json.decode(response.body);
-      });
-      print(data);
-    } catch (e) {
+      http.Response response;
+      try {
+        response = await http.get(Uri.parse('http://10.60.218.111:5000/'));
+        setState(() {
+          data = json.decode(response.body);
+        });
+        print(data);
+      } catch (e) {
       print(e);
     }
   }

@@ -1,5 +1,5 @@
 import os
-from flask import Flask,request
+from flask import Flask,request,render_template,url_for
 from flask_cors import CORS
 import pandas as pd
 import numpy as np
@@ -105,6 +105,18 @@ def get(i):
 app = Flask(__name__)
 cors.init_app(app)
 
+@app.route('/web',methods=['GET','POST'])
+def api_web():
+    if request.method == 'POST':
+        group = request.form.get('group')
+        print(group)
+        d = get(group)
+        print(d)
+        return render_template('index.html',d=d[0])
+    global totalData
+    print(totalData)
+    return render_template('index.html',totalData=totalData)
+
 @app.route('/')
 def api_getDetails():
     global totalData
@@ -114,7 +126,9 @@ def api_getDetails():
 
 @app.route("/<var>")
 def hello(var):
-    return get(var)
+    d=  get(var)
+    print(d)
+    return {'data':json.loads(json.dumps(d))}
 
 @app.route('/register',methods=['GET','POST'])
 def register():
