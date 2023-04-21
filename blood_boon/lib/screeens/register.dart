@@ -287,7 +287,7 @@ class _RegisterState extends State<Register> {
                           final headers = {'Content-Type': 'application/json'};
                           print(item);
                           final response = await http.post(
-                              Uri.parse('http://10.60.218.111:5000/register'),
+                              Uri.parse('http://192.168.227.222:5000/register'),
                               headers: headers,
                               body: json.encode(item));
                           Map<String, dynamic> responsePayload =

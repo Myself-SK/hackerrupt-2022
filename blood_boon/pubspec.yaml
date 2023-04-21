@@ -47,6 +47,7 @@ dependencies:
   firebase_storage: ^11.0.8
   geocoder_buddy: ^1.0.1
   cached_network_image: ^3.2.3
+  url_launcher: ^6.1.7
 
 dev_dependencies:
   flutter_test:

@@ -1,3 +1,6 @@
+// ignore_for_file: prefer_const_constructors
+
+import 'package:blood_boon/screeens/list_view.dart';
 import 'package:blood_boon/screeens/login_screen.dart';
 import 'package:blood_boon/screeens/main_screen.dart';
 import 'package:blood_boon/screeens/splash_screen.dart';
@@ -36,7 +39,8 @@ class _MyAppState extends State<MyApp> {
       routes: {
         SplashScreen.id: (context) => const SplashScreen(),
         LoginScreen.id: (context) => const LoginScreen(),
-        MainScreen.id: (context) => const MainScreen()
+        MainScreen.id: (context) => const MainScreen(),
+        ListViewScreen.id: (context) => const ListViewScreen(),
       },
     );
   }
